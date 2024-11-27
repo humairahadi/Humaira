@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main Page</title>
+    <style>
+
+	
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+	    background: linear-gradient(45deg, #702963 , #5F9EA0, #191970); 
+            background-size: 600% 600%;
+	    animation: gradientBG 15s ease infinite;
+            color: #FFF;
+            transition: background 0.5s ease;
+        }
+
+	 h1{
+            color: #fff;
+	    margin: 130px;
+	    margin-top: 200px;
+	    font-size: 50px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+	
+	 h2{
+            color: #fff;
+	    margin: 130px;
+	    margin-top: -150px;
+	    font-size: 95px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+
+        p {
+	    margin: 140px;
+	    margin-top: -120px;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+     
+     header {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 0;
+            animation: headerAnimation 2s ease-in-out;
+        }
+
+
+	.clickable-box {
+            width: 160px;
+            height: 50px;
+	    margin-top: -120px;
+	    margin-left: 130px;
+            background-color: #483248; 
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            border-radius: 8px;
+            cursor: pointer; /* Pointer cursor to show it's clickable */
+            transition: background-color 0.3s; /* Smooth color transition */
+        }
+
+        .clickable-box:hover {
+            background-color: #D8BFD8; 
+	}
+
+	.images {
+	    width: 45%;
+	    height: 80%;
+	    position: absolute;
+	    bottom: 0;
+	    right: -250px;
+	}
+
+	.shape{
+            height: 100%
+            position: absolute;
+	    left: 50%;
+	    margin-top: 40px;
+            bottom:0;
+            transform: translateX(-50%);
+	    transition: bottom 1s, left 1s;
+	}
+	
+		
+	.girl{
+            height: 50%
+            position: absolute;
+	    left: 50%;
+	    margin-top: -600px;
+            bottom:0;
+            transform: translateX(-50%);
+	    transition: bottom 1s, left 1s;
+	}
+
+	        
+</style>
+</head>   
+</style>
+</head>
+<body>
+<header>
+<marquee>HELLO GUYS!!! THANK YOU FOR VISITING MY WEBSITE :)</marquee>
+</header>
+
+<h1> WELCOME TO MY<br> 
+<h2>WEBSITE</h2>
+<p>Click the button below to visit my personal page</p>
+
+	<a href="my personal website.html" class="clickable-box">
+        My Personal Page
+    </a>
+
+	<div class="images">
+	    <img src="shape.png" class="shape">
+	    <img src="girl.png" class="girl">
+	</div>
+
+
+ 
+
+</body>
